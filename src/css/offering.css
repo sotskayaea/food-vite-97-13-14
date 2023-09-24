@@ -1,1 +1,109 @@
+:root{
+    --main-text-color: #2C2C2C;
+    --green-color: #BBF330;
+    --yellow-color: #FFE550;
+}
 
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--main-text-color);
+    font-size: 16px;
+}
+
+.container{
+    width: 1280px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.offering-section {
+    background-color: var(--yellow-color);
+    padding: 100px 0;
+}
+
+.offering-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offering-left {
+    padding: 24px;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.offering-right {
+    width: 473px;
+}
+.offering-title {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.2;
+    max-width: 526px;
+    letter-spacing: 0.02em;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  
+  .offering-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    margin: 0 auto;
+    max-width: 500px;
+  }
+
+  .offering-list {
+    display: flex;
+    gap: 67px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icon-container {
+    width: 48px;
+    height: 48px;
+    padding: 8px;
+    background-color: #FEFEFE;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .offering-icon {
+    fill: #7eb101;
+  }
+  
+  .offering-subtitle {
+    margin-bottom: 16px;
+    color: #2c2c2c;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+  
+  .offering-description {
+    color: #2c2c2c;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .offering-button {
+    display: inline-flex;
+    height: 40px;
+    padding: 10px 22px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 2px solid var(--Dark-green, #7eb101);
+    background: #fff;
+  }
